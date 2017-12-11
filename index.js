@@ -34,7 +34,11 @@ BoardMember.prototype.veto = function(){
 };
 
 BoardMember.prototype.approve = function(){
-  return 'No, I must disagree';
+  return 'You can do that!';
+};
+
+BoardMember.prototype.doCharity = FUNCTION(){
+  return 'I like to help people.';
 };
 
 BoardMember.prototype.sayHi = function(){
