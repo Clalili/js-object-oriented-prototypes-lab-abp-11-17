@@ -33,7 +33,9 @@ BoardMember.prototype.veto = function(){
   return 'No, I must disagree';
 };
 
-
+BoardMember.prototype.veto = function(){
+  return 'No, I must disagree';
+};
 
 BoardMember.prototype.sayHi = function(){
   return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
